@@ -198,7 +198,7 @@ img {
     padding-bottom: 3vh;
 }
 
-#section_2 p, #section_3 p {
+#section_2 p {
     padding-bottom: 1vh;
 }
 
@@ -211,6 +211,10 @@ img {
     height: 55vh;
     width: 100%;
     position: relative;     
+}
+
+#section_3 p {
+    padding-bottom: 4vh;
 }
 
 #skills-container {
@@ -430,6 +434,10 @@ textarea {
         height: 150vh;
     }
 
+    #section_3 p {
+        padding-bottom: 2vh;
+    }
+
     #carts-container {
         flex-direction: column;
     }
@@ -440,11 +448,11 @@ textarea {
     }
 
     #js {
-        margin-top: 10vh; 
+        margin-top: 8vh; 
     }
 
     #js-big {
-        left: 43%;
+        left: 37%;
     }
 
     footer {
