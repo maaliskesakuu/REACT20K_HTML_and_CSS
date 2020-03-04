@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e22008024a.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="container-header">
+                <div id="logo"><a href="#section_1">My portfolio</a></div>
+                <nav>
+                    <div id="menu_nav" class="dropdown">              
+                        <button class="dropdown-btn">Menu<i class="fa fa-angle-down"></i></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#section_1">Home</a></li>
+                            <li><a href="#section_2">About me</a></li>
+                            <li><a href="#section_3">Skills</a></li>
+                            <li><a href="#contact">Contact me</a></li>
+                        </ul> 
+                    </div>       
+                </nav>
+            </div> 
+        </div>   
+    </header>
+    <main>
+        <section id="section_1" class="container">
+        <div id="overlay"></div>    
+            <div id="banner-container">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae voluptatem quis.</p>
+                <button id="banner-btn">Read more</button>
+            </div>
+        </section>    
+        <section id="section_2" class="container">
+            <div id="lorem-container">
+                <section>
+                    <img src="https://source.unsplash.com/weekly?laptop&person" alt="a person with a laptop">
+                </section> 
+                <section>
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, commodi?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit officia labore voluptas eligendi. Voluptatibus, aliquam.</p>
+                    <ul id="list_list">
+                        <li>list item 1</li>
+                        <li>list item 2</li>
+                        <li>list item 3</li>
+                    </ul>
+                </section>
+            </div>
+        </section>    
+        <section id="section_3" class="container">      
+            <section id="skills-container">
+                <section>
+                    <h2>My skills</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis tenetur voluptate nostrum eius fugit error asperiores dolorem rem repellat sapiente nisi earum commodi veritatis exercitationem, praesentium quia incidunt eaque maxime reiciendis. Omnis laborum quisquam possimus cum nam dolor delectus iste. Eum eaque ipsum non aperiam suscipit cupiditate vero natus! 
+                    </p>
+                </section>
+                <section id="section_3a" class="container">
+                    <div id="carts-container" >
+                        <div id="html">
+                            <i class="fa fa-html5 fa-2x"></i>
+                            <p>HTML</p>
+                            <div class="meter"><span style="width: 30%"></span></div>
+                        </div>
+                        <div id="css">
+                            <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                            <p>CSS</p>
+                            <div class="meter"><span style="width: 30%"></span></div>
+                        </div>
+                        <div id="js">
+                            <i class="fa fa-code fa-2x" aria-hidden="true" style="visibility: hidden"></i>
+                            <p>JavaScript</p>
+                            <div class="meter"><span style="width: 25%"></span></div>
+                                <div id="js-big"><i class="fa fa-code fa-4x" aria-hidden="true"></i>
+                                </div>
+                        </div>
+                        <div id="UI">
+                            <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+                            <p>UI design</p>
+                            <div class="meter"><span style="width: 30%"></span></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>   
+    </main>    
+    <footer id="contact">
+        <div class="container">
+            <div class="contact">
+                <section id="section_a">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quos, tenetur deleniti sint minima sequi suscipit adipisci fugiat non atque?</p>
+                </section>
+                <section id="section_b">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugiat, distinctio inventore vero ad quis.</p>
+                </section>
+                <section id="section_c">
+                    <form>
+                        <h3>Contact me</h3><br>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder=" Enter your name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder=" Enter your email"><br>
+                        <label for="number">Phone number</label><br>
+                        <input type="number" id="number" name="number" placeholder=" Enter your phone number"><br>
+                        <label for="text_area">Message</label><br>
+                        <textarea id="text_area" rows="3" cols="20" placeholder=" Enter your message"></textarea><br>
+                        <button id="contact-btn">Send</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="top-btn" title="Go to top">Back to top<i class="fa fa-angle-up"></i></button>
+    </footer> 
+
+<script>
+    btn = document.getElementById("top-btn");
+
+window.onscroll = function() {
+    scrollFunction()
+};
+
+function scrollFunction () {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>

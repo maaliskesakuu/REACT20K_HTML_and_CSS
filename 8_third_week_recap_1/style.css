@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;;
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+#home .container {
+    width: 375px;
+    background-color: rgba(247, 59, 2, 0.6);
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+
+#home {
+    width: max-width;
+    line-height: 1.6rem;
+    padding: 200px 0 40px 175px;
+    background-image: url("https://source.unsplash.com/weekly?sky");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+#home button {
+    width: 40%;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.flex-container {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.flex-container > div {
+    margin: 60px 0 50px 175px;
+    line-height: 1.6rem;
+}
+
+.flex-container div p {
+    width: 375px;
+}
+
+#picture {
+    width: 375px;
+    border-radius: 5px;
+}
+
+.form_info {
+    line-height: 1.6rem;
+    margin: 60px 0 20px 175px;
+}
+
+h3 {
+    padding: 20px 0;
+    border-top: 1px dotted dimgray;
+    width: 375px;
+}
+
+.form_group {
+    margin-bottom: 20px;
+}
+
+.form_group label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.form_group input {
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid #333;
+}
+
+#firstname, #lastname, #email {
+    width: 225px;
+    padding: 8px;
+    margin-left: 70px;
+}
+
+#lastname {
+    margin-left: 73px;
+}
+
+#email {
+    margin-left: 102px;
+} 
+
+#yes, #no, #friend, #internet, #media, #other, textarea {
+    margin-left: 15px;
+}
+
+textarea {
+    border-radius: 3px;
+}
+
+.additional {
+    width: 375px;
+    line-height: 1.6rem;
+    margin-top: 0px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 25px 10px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+nav ul li a:hover {
+    color: orangered;
+    text-decoration-color: orangered;
+    border-bottom: 5px solid orangered;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer button {
+    width: 80px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 0px 10px 0;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-left: 175px; 
+    text-align: center;   
+}

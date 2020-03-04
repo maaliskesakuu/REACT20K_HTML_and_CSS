@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: box-border;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    margin: O auto;
+    background-color: rgba(172, 235, 231, 0.75);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#past img {
+    border-radius: 5px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: rgb(29, 59, 63);
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Sigmar One', cursive;
+}
+
+#logo {
+    padding: 25px 10px;
+    float: left;
+}
+
+nav ul {
+    text-align: right;
+    list-style-type: none;
+    padding: 25px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover {
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#future, #present, #past  {
+    line-height: 1.6rem;
+    width: max-width;
+    padding: 50px 300px 100px;
+    background-image: url("https://source.unsplash.com/weekly?light_turquoise");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#present {
+    background: lightseagreen;
+}
+
+footer {
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}

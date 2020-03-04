@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jobs in Finland</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    <script src="//use.fontawesome.com/e22008024a.js"></script>
+</head>
+<body>
+    <header class="container">
+        <div class="grid_container">
+            <span class="header_item logo">Jobs in <br><strong>Finland</strong></span> 
+            <span class="header_item a"><a><i class="fa fa-angle-double-right" aria-hidden="true"></i>Work in Finland</a></span>
+        </div>
+    </header>
+    <section class="navigation container">
+        <nav class="navbar">
+            <ul class="list">
+                <li>jobs home</li>
+                <li class="dropdown">regions
+                    <ul class="dropdown_menu">
+                        <li>Turku</li>
+                        <li>Lapland</li>
+                        <li>Lakeland</li>
+                        <li>Ostrobotnia</li>
+                        <li>Helsinki</li>
+                        <li>Espoo</li>
+                        <li>Tampere</li>
+                        <li>Oulu</li>
+                        <li>Coast</li>
+                        <li>Kuopio</li>
+                        <li>Jyväskylä</li>
+                    </ul></li>
+                <li>open positions</li>
+                <li>about</li>
+                <li>for employees</li>
+                <li id="search"><i class="fa fa-search" aria-hidden="true"></i></li>
+            </ul>
+        </nav> 
+    </section>      
+    <section class="container section_a">
+        <div class="hero_banner">
+            <div class="hero_banner_content">
+                <h1><strong>Jobs</strong> in <br> Finland</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sequi magni nihil quaerat pariatur numquam, dolor.</h3>
+                <h3>Expedita tenetur dolorem animi laboriosam consectetur ex, dolore magnam!
+                </h3>
+            </div> 
+        </div>
+    </section>
+    <section class="container section_b">
+        <div class="explore_category">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nisi fugiat reprehenderit neque adipisci repellendus ut nam velit! Ad, blanditiis.</p>
+        </div>
+        <div class="container">
+            <div class="grid_container industries">
+                <div class="industry academic">Academic</div>
+                <div class="industry engineer">Engineering</div>
+                <div class="industry finance">Finance</div>
+                <div class="industry health">Health</div>
+                <div class="industry hospitality">Hospitality</div>
+                <div class="industry HR">HR</div>
+                <div class="industry ICT">ICT</div>
+                <div class="industry manufacture">Manufacture</div>
+                <div class="industry marketing">Marketing</div>
+            </div> 
+        </div>
+    </section> 
+    <section class="container section_c">
+        <div class="explore_region">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, est. Dolores ut laborum ratione soluta.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus ut ipsa iure nostrum. Reprehenderit?</p>
+            <button>See regions on map</button>
+        </div>
+        <div class="container">
+            <div class="grid_container location">
+                <div class="where turku">Turku</div>
+                <div class="where lapland">Lapland</div>
+                <div class="where lakeland">Lakeland</div>
+                <div class="where ostrobotnia">Ostrobotnia</div>
+                <div class="where helsinki">Helsinki</div>
+                <div class="where espoo">Espoo</div>
+                <div class="where tampere">Tampere</div>
+                <div class="where oulu">Oulu</div>
+                <div class="where coast">Coastline</div>
+                <div class="where kuopio">Kuopio</div>
+                <div class="where jyvaskyla">Jyväskylä</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="grid_container bottom">
+                <div class="info left">
+                    <h4>Jobs in <br><strong>Finland</strong></h4>
+                </div>
+                <div class="info center">
+                    <h4>Links</h4>
+                    <h5>Lorem ipsum: dolor sit amet</h5>
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, tempore.</h6>
+                    <h5>Lorem.fi</h5>
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt dolor at!</h6>
+                    <h5>Lorem.fi</h5>
+                    <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                </div>
+                <div class="info right">
+                    <h4 id="heading">Heading</h4>
+                    <h5 id="padding">Lorem ipsum dolor</h5>
+                    <h5>Lorem ipsum dolor</h5>
+                </div>
+                <button onclick="topFunction()" id="to_top_btn" style="display: block;">
+                <i class="fa fa-angle-up fa-1x aria-hidden="true"></i></button>
+            </div>    
+        </div>
+    </footer>
+    <script>
+    btn = document.getElementById("to_top_btn");
+    
+    window.onscroll = scrollFunction;
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>
