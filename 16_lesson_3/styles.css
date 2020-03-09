@@ -48,6 +48,10 @@ header {
     font-weight: bolder;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .header_item a {
     grid-column: 2 / span 1;
     font-size: smaller;
@@ -444,11 +448,22 @@ footer {
 
     header .grid_container {
         grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        grid-gap: 1rem;
     }
 
     .logo {
         font-size: 1rem;
         grid-column: 2 / span 1;
+    }
+
+    .hidden {
+        visibility: visible;
+    }
+
+    .seek {
+        align-self: center;
+        justify-self: end;
     }
 
     .header_item a {
